@@ -44,7 +44,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://omri:at0cX4FvTFjscgWV@mern-app.5cqaw.mongodb.net/mern?retryWrites=true&w=majority'
+
   )
   .then(() => {
     app.listen(5000);
